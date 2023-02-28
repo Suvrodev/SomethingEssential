@@ -1,0 +1,134 @@
+*{
+    /* padding: 0;
+    margin: 0; */
+}
+.Start{
+    background-color: rgb(18, 187, 18);
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    padding: 7px 5px;
+    box-shadow: 15px 15px 25px black;
+}
+.Tag{
+    display: table;
+    margin: 10px auto;
+}
+.Tag span{
+    background-color: tomato;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+.Recap1{
+    background-color: yellow;
+}
+.Recap2{
+    overflow: hidden;
+    background-color: skyblue;
+}
+.Recap3{
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+.MyButton{
+    background-color: teal;
+    color: white;
+    padding: 5px 7px;
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+}
+
+.mpset{
+    color: white;
+    padding: 2px 3px;
+    border-radius: 7px;
+    margin: 5px 0px 5px 0px;
+}
+
+.ListBox{
+    width: 500px;
+    margin: 0 auto;
+    background-color: lightseagreen;
+    overflow: hidden;
+    padding: 15px;
+    border-radius: 10px;
+}
+.mt{
+    margin-top: 15px;
+}
+.inputbox{
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    padding: 5px 10px;
+}
+
+.liclass{
+    background-color: purple;
+    width: 200px;
+    padding: 5px 7px;
+    color: white;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.ToggleContainer{
+    width: 750px;
+    margin: 15px auto;
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.sz{
+    padding: 10px 15px;
+    font-weight: 700;
+}
+
+.Toggleclas{
+    background-color: tomato;
+    box-shadow: 15px 15px 25px black;
+}
+.md{
+    margin: 0 auto;
+}
+.flx{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+@media only screen and (max-width: 576px) {
+    .ListBox{
+        width: 90%;
+    }
+    .flx{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        /* column-gap: 15px; */
+    }
+    .Recap1{
+       width: 100%;
+    }
+    .Recap2{
+        width: 100%;
+    }
+    .Recap3{
+        width: 100%;
+    }
+    .flx1{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .ToggleContainer{
+        width: 90%;
+    }
+}
